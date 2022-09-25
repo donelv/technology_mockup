@@ -1,0 +1,83 @@
+.footer {
+  background-color: #000000;
+  padding: 170px 250px 50px 250px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.topText h2 {
+  position: relative;
+  font-family: 'Rubik';
+  font-size: 60px;
+  line-height: 100%;
+  margin: 0;
+  color: white;
+}
+/* .topText {
+  align-self: flex-start;
+} */
+.topText p {
+  color: #076cf0;
+  font-size: 20px;
+  margin: 0;
+}
+.topText h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #076cf0;
+  left: -24px;
+}
+.inputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inputWrapper input {
+  width: 330px;
+  border: none;
+  border-bottom: 2px solid white;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+}
+.inputWrapper input::placeholder {
+  color: white;
+}
+.bottomCards {
+  display: flex;
+}
+.bottomCards img {
+  align-self: flex-start;
+}
+.bottomCards a {
+  margin-left: 30px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 16px;
+}
+.form {
+  margin-top: 50px;
+}
+.form input {
+  width: 30%;
+  /* height: 100px; */
+  margin-bottom: 2%;
+}
+.form input:nth-child(4n) {
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}

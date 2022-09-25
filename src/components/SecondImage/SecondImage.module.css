@@ -1,0 +1,25 @@
+.secondImage {
+  position: relative;
+}
+.secondImage img {
+  width: 100%;
+}
+.secondImage_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.secondImage_text h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 80px;
+  color: #ffffff;
+  margin: 0;
+}
+.secondImage_text p {
+  font-family: 'Abel';
+  font-weight: 400;
+  font-size: 30px;
+  color: #868686;
+}

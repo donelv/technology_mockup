@@ -1,0 +1,32 @@
+.workWith {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 130px;
+}
+.cardList_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: -50px;
+}
+.secondSection {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 120px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.secondSection_img {
+  max-width: 355px;
+}
+.secondSection_img img {
+  width: 100%;
+}
+.secondSection div:nth-child(odd) {
+  justify-self: flex-end;
+}
+.secondSection div:nth-child(even) {
+  justify-self: flex-start;
+}

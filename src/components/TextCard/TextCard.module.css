@@ -1,0 +1,46 @@
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #076cf0;
+  border: none;
+  color: #ffffff;
+  font-family: 'Abel';
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.textCard_btn {
+  margin-top: 50px;
+}
+/* .textCard_header {
+  position: relative;
+} */
+.textCard_header h2 {
+  position: relative;
+  font-family: 'Rubik';
+  font-size: 60px;
+  line-height: 100%;
+  margin: 0;
+}
+.textCard_header p {
+  color: #076cf0;
+  font-size: 20px;
+  margin: 0;
+}
+
+.textCard h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  background-color: #076cf0;
+  left: -24px;
+}
+.textCard_header {
+  max-width: 355px;
+}
+.textCard_p {
+  margin: 20px 0 0 0;
+  max-width: 355px;
+}

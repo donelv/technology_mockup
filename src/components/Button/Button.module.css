@@ -1,0 +1,11 @@
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #076cf0;
+  border: none;
+  color: #ffffff;
+  font-family: 'Abel';
+  font-size: 12px;
+  letter-spacing: 3px;
+}

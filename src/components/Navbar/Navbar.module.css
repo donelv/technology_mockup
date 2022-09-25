@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.navbarList {
+  display: flex;
+  gap: 45px;
+}
+.navbarList a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbarList a.navbarList_active {
+  color: #076cf0;
+}
+.navbarList a:hover {
+  color: #80a4d5;
+}

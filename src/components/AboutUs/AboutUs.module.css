@@ -1,0 +1,44 @@
+.cardList_wrapper {
+  /* position: absolute; */
+  transform: translateY(-50%);
+}
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 120px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.about div:nth-child(odd) {
+  justify-self: flex-end;
+}
+.about div:nth-child(even) {
+  justify-self: flex-start;
+}
+
+.percentageComponent_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.percentageComponent_top * {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.percentageComponent_bottom {
+  margin-top: 8px;
+  margin-bottom: 30px;
+  height: 5px;
+  background-color: #f1f4f8;
+}
+.fullLine_color {
+  height: 100%;
+  background-color: red;
+}
+.percentage {
+  min-width: 355px;
+}

@@ -1,0 +1,22 @@
+.mainImage img {
+  width: 100%;
+}
+.mainImage_text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.mainImage_text h2 {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-size: 50px;
+  color: #ffffff;
+  margin: 0;
+}
+.mainImage_text p {
+  font-family: 'Abel';
+  font-weight: 400;
+  font-size: 30px;
+  color: #868686;
+}
